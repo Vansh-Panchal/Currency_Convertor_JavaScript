@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(241, 101, 101);
+}
+
+.container {
+
+    padding: 4rem 4rem;
+    background-color: rgb(247, 218, 174);
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+}
+
+.select_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.select_container img {
+    max-width: 2.5rem;
+}
+
+.select_container select {
+    margin-left: 0.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    height: 2rem;
+}
+
+.dropdown i {
+    font-size: 1.5rem;
+    margin-top: 1.7rem;
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 0px;
+    outline: none;
+}
+
+.msg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.res {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    width: 90%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    background-color: rgb(187, 144, 227);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .container {
+        max-width: fit-content;
+        padding: 2rem 2rem;
+        /* margin: 10px; */
+
+    }
+
+    input {
+        padding: 3px;
+        width: 100%;
+        outline: none;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 3px 0px;
+
+    }
+
+    .select_container img {
+        max-width: 1.5rem;
+
+    }
+
+    .select_container select {
+        margin-left: 0.3rem;
+        border: none;
+        border-radius: 0.5rem;
+        height: 1.5rem;
+        font-size: 14px
+    }
+
+    .msg {
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+    .res {
+        font-size: 14px;
+        padding: 5px 0px;
+    }   
+    button {
+        width: 100%;
+        padding: 7px 7px;
+        border-radius: 5px;
+        border: none;
+        font-size: 14px;
+        color: black;
+        background-color: rgb(187, 144, 227);
+    }
+    .dropdown i {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+    }   
+    .dropdown {
+        width: 100%;
+        padding: 7px 0px;
+    }
+}
