@@ -63,6 +63,8 @@ btn.addEventListener("click" , async (evt) => {
     let rate = data?.[from]?.[to];
     console.log(rate);
     let actv8al = amt * rate;
-    msg.innerText = `${amt} ${fromCurr.value.toLowerCase()} = ${rate} ${toCurr.value.toLowerCase()}`;
+    msg.innerText = `1 ${fromCurr.value.toLowerCase()} = ${rate} ${toCurr.value.toLowerCase()}`;
     res.innerText = `Result is ${actv8al}`;
+    msg.style.fontWeight = "bold";
+    res.style.fontWeight = "bold"; 
 });
